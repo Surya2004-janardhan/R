@@ -1,0 +1,5 @@
+x<-readLines("sample1.txt")
+print(x)
+writeLines(x,"sample2.txt")
+y<-readLines("sample2.txt")
+print(y)

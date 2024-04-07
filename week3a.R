@@ -1,0 +1,6 @@
+l1<-list(1,2,3)
+l2<-list("ram","sita","laxman")
+print(l1)
+print(l2)
+l3<-append(l1,l2)
+print(l3)

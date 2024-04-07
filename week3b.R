@@ -1,0 +1,7 @@
+l1<-list(1:3)
+l2<-list(4:6)
+l3<-append(l1,l2)
+l4<-c(l1,l2)
+print("The Merged Lists are:")
+print(l3)
+print(l4)

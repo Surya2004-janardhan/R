@@ -1,0 +1,8 @@
+print(getwd())
+install.packages("XML")
+library(XML)
+xml_data<-xmlParse(file = "e:/sample.xml")
+print(xml_data)
+cat("\n")
+xml_list<-xmlToList(xml_data)
+print(xml_list)
